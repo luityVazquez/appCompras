@@ -5,5 +5,5 @@ import { ProveedoresComponent } from './proveedores/proveedores/proveedores.comp
 export const routes: Routes = [
     { path: '', component: InicioComponent },
     { path: 'proveedores', component: ProveedoresComponent },
-    { path: '**', component: InicioComponent} /*Carga ese componente si pone una ruta que no está definida*/ 
+    { path: '**', component: InicioComponent} /*Carga ese componente si pone una ruta que no está definida*/
 ];
